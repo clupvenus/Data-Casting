@@ -1,5 +1,5 @@
 package Humeyra.ders05;
-import.java.lang.String;
+
 
 public class ders5Relational {
     public static void main(String[] args) {
