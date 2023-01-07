@@ -1,6 +1,5 @@
 package Humeyra.ders26;
 
-//1.29 a kadar tekrarini izledim.
 class Okul{
     String okulIsmi="Yildiz";
     String telefon="12345679";
