@@ -13,6 +13,7 @@ public class C04_StringEquals {
             havuza bakmaz, once objeyi olusturur
             sonra atamayi yapar
          */
+
         String str1= "Java";
         String str2= "Java";
         String str3= new String("Java"); // Java

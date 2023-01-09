@@ -32,6 +32,7 @@ public class Car {
         //
     }
 
+
     public Car(String marka, String model, int yil, String renk) {
         this.marka = marka;
         this.model = model;
@@ -50,9 +51,13 @@ public class Car {
                 '}';
     }
 
+
     int yil=1900;
     int km;
     String renk="Renk secilmedi.";
+
+
+
 
 
 

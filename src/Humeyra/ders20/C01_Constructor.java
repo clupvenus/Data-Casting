@@ -3,6 +3,10 @@ package Humeyra.ders20;
 public class C01_Constructor {
 
 
+  @Override
+  public String toString() {
+    return "C01_Constructor{}";
+  }
 
   public static void main(String[] args) {
 
@@ -44,7 +48,11 @@ public class C01_Constructor {
       //Zaten biz Genarate ile yaparsak java da otomatik olarak this.marka seklinde variabla olusturdu.
 
        Car car3=new Car("BMW","5.20",2020,"beyaz");
+
+
        //bu da genarate ile yaptigimiz 4 parametreli constructor.
+
+
     System.out.println(car3);
 //Car{marka='BMW'
 // model='5.20'
