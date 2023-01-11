@@ -22,7 +22,14 @@ public class C02_ListIterator {
             lit.set(sayi+3);
         }
         System.out.println(sayilar);//[8, 26, 5, 12, 14]
+        //L
+        //Listedeki tum elementleri sondan basa yazdirin.
+        //Su anda listemiz en sonda zaten basa donelim
 
+        while (lit.hasPrevious()){
+            System.out.print(lit.previous()+" ");
+        }
+//14 12 5 26 8
 
 
 
